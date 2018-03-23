@@ -31,9 +31,10 @@ header{
         background: $secondColor;
         color: #ffff;
         font-size: 25px;
-        border: 1px;
+        border: 1px solid $secondColor;
         padding: 16px 65px;
         margin-top: 60px;
+        transition: all 0.3s;
     }
     .showJobs:hover{
         background: $thirdColor;

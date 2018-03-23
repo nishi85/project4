@@ -169,7 +169,7 @@ i {
     text-align: center; } }
 
 main {
-  font-family: "Roboto Mono", monospace;
+  font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, Roboto, Noto, sans-serif;
   margin-top: 100px; }
   main .job {
     float: left;
@@ -197,7 +197,7 @@ main {
     color: #ffff;
     border: 1px solid #2e66eb; }
   main form {
-    font-family: "Roboto Mono", monospace;
+    font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, Roboto, Noto, sans-serif;
     color: #ee6f2e;
     background: #d3d3d3; }
     main form .wordSkillContainer {
@@ -248,9 +248,12 @@ main {
       background: #2e66eb;
       color: #ffff;
       font-size: 25px;
-      border: 1px;
+      border: 1px solid #2e66eb;
       padding: 16px 65px;
-      margin-top: 100px; }
+      margin-top: 100px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
     main form input[type="submit"]:hover {
       background: #ee6f2e;
       border: 1px solid #ee6f2e; }
@@ -289,7 +292,7 @@ main {
     border: 1px solid #ee6f2e; }
 
 header {
-  font-family: "Roboto Mono", monospace; }
+  font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, Roboto, Noto, sans-serif; }
   header h1 {
     font-size: 55px;
     text-align: center;
@@ -312,16 +315,19 @@ header {
     background: #2e66eb;
     color: #ffff;
     font-size: 25px;
-    border: 1px;
+    border: 1px solid #2e66eb;
     padding: 16px 65px;
-    margin-top: 60px; }
+    margin-top: 60px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
   header .showJobs:hover {
     background: #ee6f2e;
     border: 1px solid #ee6f2e; }
 
 html {
   font-size: 62.5%;
-  font-family: "Roboto Mono", monospace; }
+  font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, Roboto, Noto, sans-serif; }
 
 .wrapper {
   max-width: 1170px;
