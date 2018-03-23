@@ -25,6 +25,13 @@ header{
         border: 1px solid $primaryColor;
         font-size: 25px;
         padding: 10px 20px;
+        border-radius: 6.25rem;
+        transition: all .35s ease-in-out;
+        margin-top: 25px;
+        &:focus {
+            border: 1px solid $secondColor;
+            outline: none;
+        }
     }
 
     .showJobs{
@@ -32,6 +39,7 @@ header{
         color: #ffff;
         font-size: 25px;
         border: 1px solid $secondColor;
+        border-radius: 6.25rem;
         padding: 16px 65px;
         margin-top: 60px;
         transition: all 0.3s;
